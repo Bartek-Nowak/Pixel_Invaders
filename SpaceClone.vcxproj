@@ -24,6 +24,7 @@
     <ProjectGuid>{8d8bc32d-7d82-4dec-9c5b-b7a67249082f}</ProjectGuid>
     <RootNamespace>SpaceClone</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Pixel Invaders</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -98,7 +99,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,7 +136,71 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BigEnemy.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="EnemiesFactory.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="GameComponent.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="HealthNumber.cpp" />
+    <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Level1.cpp" />
+    <ClCompile Include="LevelFactory.cpp" />
+    <ClCompile Include="LoaderManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
+    <ClCompile Include="MediumEnemy.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SmallEnemy.cpp" />
+    <ClCompile Include="TextContainer.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="UiComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BigEnemy.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Enemies.h" />
+    <ClInclude Include="EnemiesFactory.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="GameComponent.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="HealthNumber.h" />
+    <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Level1.h" />
+    <ClInclude Include="GameEngineConfig.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LevelFactory.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="LoaderManager.h" />
+    <ClInclude Include="MediumEnemy.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SmallEnemy.h" />
+    <ClInclude Include="TextContainer.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="UiComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

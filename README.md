@@ -1,22 +1,30 @@
 
-# SpaceClone
+# Pixel Invaders
 
-Space Clone to gra inspirowana klasykiem Space Invaders, w której gracz steruje statkiem kosmicznym, niszczy nadlatujących obcych i unika ich ataków.
+Pixel Invaders to gra inspirowana klasykiem Space Invaders, w której gracz steruje statkiem kosmicznym, niszczy nadlatujących obcych i unika ich ataków.
 
 
 ## Features
 
-❌ Okno gry
+✔️ Okno gry
 
-❌ Gracz
+✔️ Gracz
 
-❌ Przeciwnik
+✔️ Przeciwnik
 
-❌ Liczenie punktacji
+✔️ Liczenie punktacji
 
-❌ Tło
+✔️ Tło
 
-❌ Liczenie wyników
+✔️ Rodzaje przeciwników
+
+✔️ Dzwięki 
+
+✔️ Muzyka
+
+✔️ Zmiana ekranów
+
+✔️ HUD
 
 
 ## Documentation

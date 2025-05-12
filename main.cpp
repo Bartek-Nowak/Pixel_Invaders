@@ -1,29 +1,15 @@
 #include <SFML/Graphics.hpp>
-#include <iostream>
+#include "GameEngine.h"
 
-int main()
-{
-    // Create the main window
-    sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "SFML window");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
-
-    // Start the game loop
-    while (window.isOpen())
-    {
-        // Process events
-        while (const std::optional event = window.pollEvent())
-        {
-            // Close window: exit
-            if (event->is<sf::Event::Closed>())
-                window.close();
-        }
-
-        // Clear screen
-        window.clear();
-
-        window.draw(shape);
-        // Update the window
-        window.display();
-    }
+#ifdef _DEBUG
+int main() {
+    GameEngine::getInstance().start();
+    return 0;
 }
+#else
+#include <windows.h>
+int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
+    GameEngine::getInstance().start();
+    return 0;
+}
+#endif

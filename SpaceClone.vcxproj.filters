@@ -13,10 +13,252 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki źródłowe\GameEngine">
+      <UniqueIdentifier>{6ea36224-53f7-4748-b230-6f18cdf30460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GameEngine">
+      <UniqueIdentifier>{58e9e7bd-f8f4-47e1-ade0-a1afb0910be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GameEngine\Components">
+      <UniqueIdentifier>{9af1dca8-140d-440e-a93c-29103ace5eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GameEngine\Components">
+      <UniqueIdentifier>{e93ec520-61ef-4f84-952b-e8c4fafdd30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GameEngine\Core">
+      <UniqueIdentifier>{4d781df6-2075-4d88-a7d2-3d7a631aa925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GameEngine\Core">
+      <UniqueIdentifier>{1b95c68c-94c3-4041-8ddc-d4550c63f454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game">
+      <UniqueIdentifier>{536a20d6-67f4-438e-80a6-2e1ab31a7919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game\Enemies">
+      <UniqueIdentifier>{6598e45f-b260-4620-b136-b0d18f7f2cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game\Levels">
+      <UniqueIdentifier>{94817407-edad-4bba-9bfc-fe13e7645d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game\Levels\Level1">
+      <UniqueIdentifier>{39436221-a834-411e-b1e7-dde6cecb509f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Game">
+      <UniqueIdentifier>{fe37ecaf-1064-4e79-a86e-5dd2bdb0c9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GameEngine\Managers">
+      <UniqueIdentifier>{7d140416-dd10-4ead-87f6-28c1a3fe92b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GameEngine\Managers">
+      <UniqueIdentifier>{29f8e789-037a-4fb5-850b-f20c99d45577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Game\Enemies">
+      <UniqueIdentifier>{20a6f412-25cc-46b7-afe6-7230c5cd9348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Game\Levels">
+      <UniqueIdentifier>{2c4eca6e-6e22-45f2-b181-b596b76b44f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game\Player">
+      <UniqueIdentifier>{c7446d20-5833-4251-98c8-5b51ddcb5c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Game\UI">
+      <UniqueIdentifier>{81aa71ee-f07d-4f49-810b-52f8e5f187c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Game\UI">
+      <UniqueIdentifier>{cc616117-7249-46f4-8be8-a0cc258302af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Pliki źródłowe\Game\Levels\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Pliki źródłowe\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFactory.cpp">
+      <Filter>Pliki źródłowe\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Pliki źródłowe\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponent.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Pliki źródłowe\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemiesFactory.cpp">
+      <Filter>Pliki źródłowe\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BigEnemy.cpp">
+      <Filter>Pliki źródłowe\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallEnemy.cpp">
+      <Filter>Pliki źródłowe\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MediumEnemy.cpp">
+      <Filter>Pliki źródłowe\Game\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextContainer.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Pliki źródłowe\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Pliki źródłowe\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Pliki źródłowe\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UiComponent.cpp">
+      <Filter>Pliki źródłowe\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>Pliki źródłowe\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderManager.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Pliki źródłowe\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthNumber.cpp">
+      <Filter>Pliki źródłowe\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Pliki źródłowe\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Pliki źródłowe\Game\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineConfig.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Pliki nagłówkowe\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Pliki nagłówkowe\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Pliki nagłówkowe\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Pliki nagłówkowe\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFactory.h">
+      <Filter>Pliki nagłówkowe\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>Pliki nagłówkowe\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BigEnemy.h">
+      <Filter>Pliki nagłówkowe\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemiesFactory.h">
+      <Filter>Pliki nagłówkowe\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallEnemy.h">
+      <Filter>Pliki nagłówkowe\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MediumEnemy.h">
+      <Filter>Pliki nagłówkowe\Game\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextContainer.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Pliki nagłówkowe\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthNumber.h">
+      <Filter>Pliki nagłówkowe\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderManager.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Pliki nagłówkowe\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UiComponent.h">
+      <Filter>Pliki nagłówkowe\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Pliki nagłówkowe\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Pliki nagłówkowe\Game\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Pliki nagłówkowe\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
